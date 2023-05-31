@@ -1,5 +1,6 @@
 # **HealthCoder 2023 - Cardiovascular Disease Prediction**
-A Web app that predicts your chances of having a heart disease!
+
+> A web app that predicts the probability of heart disease based on user input, offering a convenient and accessible tool for assessing individual risk.
 
 ![cvd home](https://github.com/somyasubham9/CVD_Prediction/assets/77459972/dcaea43a-ca64-4a5c-9062-8f2a23d49aa4)
 
