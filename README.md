@@ -66,9 +66,10 @@ Thereafter, the probablities values for each classes were fed as input to the me
  ```python
  model = StackingClassifier(estimators=level0, final_estimator=level1, passthrough = True, stack_method = 'auto')
  ```
+ > Surprisingly a simple model like Gaussian Naive Bayes worked very well as the final estimator, we believe it can be tuned further!
  
 ## Model Performance
-Model performance was evaluated using `AUC ROC` as the scoring metric and RepeatedStratifiedKFold Cross-validation scheme with <br>
+Model performance was evaluated using `AUC ROC` as the scoring metric and RepeatedStratifiedKFold Cross-validation scheme
 `n_splits = 5` and `n_repeats = 3` was followed to ensure each fold of dataset has the same proportion of observations.
 
 |      Model            |  AUC ROC (%)|
