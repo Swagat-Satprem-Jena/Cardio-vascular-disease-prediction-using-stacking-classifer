@@ -17,7 +17,7 @@ Video Link: https://drive.google.com/file/d/1Oh3mtgwJ8AfMGnt0_T-KSfUpU3TQeUgY/vi
 To run this project, install it locally using npm:
 Clone the Project
 ```
-git clone  https://github.com/somyasubham9/CVD_Prediction.git
+git clone  https://github.com/Swagat-Satprem-Jena/Cardio-vascular-disease-prediction-using-stacking-classifer.git
 npm i
 ```
 Client Side
